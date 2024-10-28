@@ -6,7 +6,10 @@
     <title>Panificadora MM</title>
     <link rel="icon" sizes="100x100" href="./images/logo mm nova 2024-1.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 <body>
     <div class="whatsapp"><img class="icon-whatsapp" src="images/icon-whatsapp.png" alt=""></div>
@@ -15,13 +18,14 @@
             <img class="logo" src="images/logo mm nova 2024-1.png" alt="">
 
             <ul>
-                <li>Início</li>
-                <li>Produtos</li>
+                <li onclick="redirect('index.html')">Início</li>
+                <li onclick="redirect('#produtos')">Produtos</li>
                 <li>Localização</li>
                 <li>Quem somos</li>
                 <li>Contato</li>
                 <li class="encomendar">Encomendar</li>
             </ul>
+            <p class="button-menu">&#9776;</p>
         </nav>
         <div class="container-bemvindo">
             <div class="bemvindo">
@@ -29,9 +33,19 @@
                     Bem vindo á <br>
                     Panificadora MM
                 </h1>
-                <p></p>
+                <p>Seu destino para delícias fresquinhas, onde cada pão é assado com carinho <br> e cada receita conta uma história. Venha saborear o melhor da tradição e da inovação em cada fatia</p>
             </div>
         </div>
     </header>
+
+    <section class="produtos" id="produtos">
+        <h1 class="titulo">Nossos Produtos</h1>
+    </section>
+
+    <section class="mapa">    
+        <div id="map" class ="map"></div>    
+    </section>
+
+    
 </body>
 </html>

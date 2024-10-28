@@ -1,0 +1,22 @@
+@media screen  and (max-width: 700px){
+    
+    header nav .logo{
+        width: 70px;
+        height: 70px;
+    }
+    header nav ul{
+        display: none;
+    }
+    .container-bemvindo .bemvindo .tit{
+        font-size: 25px;
+    }
+    .container-bemvindo .bemvindo p{
+        font-size: 15px;
+    }
+    .button-menu{
+        display: block;
+        color: white;
+        font-size: 28px;
+    }
+
+}
