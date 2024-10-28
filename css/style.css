@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prociono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Poppins", serif;
+}
+
+.whatsapp,.icon-whatsapp{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+}
+
+header{
+    height: 100vh;
+    background-image: url("../images/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+header nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+}
+header nav .logo{
+    width: 100px;
+    height: 100px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    font-size: larger;
+}
+header nav ul li{
+    cursor: pointer;
+    font-weight: 200;
+}
+header nav ul .encomendar{
+    width: 150px;
+    height: 40px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    transition: 0.5s;
+}
+header nav ul .encomendar:hover{
+    background-color: white;
+    color:black;
+}
+
+header .container-bemvindo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.container-bemvindo .bemvindo .tit{
+    font-weight: 200;
+    font-size: 40px;
+}
