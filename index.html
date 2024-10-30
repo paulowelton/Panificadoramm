@@ -12,7 +12,7 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 <body>
-    <div class="whatsapp"><img class="icon-whatsapp" src="images/icon-whatsapp.png" alt=""></div>
+    <div class="whatsapp"><img onclick="redirect('')" class="icon-whatsapp" src="images/icon-whatsapp.png" alt=""></div>
     <header>
         <nav>
             <img class="logo" src="images/logo mm nova 2024-1.png" alt="">
@@ -20,7 +20,7 @@
             <ul>
                 <li onclick="redirect('index.html')">Início</li>
                 <li onclick="redirect('#produtos')">Produtos</li>
-                <li>Localização</li>
+                <li onclick="redirect('#mapa')">Localização</li>
                 <li>Quem somos</li>
                 <li>Contato</li>
                 <li class="encomendar">Encomendar</li>
@@ -42,10 +42,44 @@
         <h1 class="titulo">Nossos Produtos</h1>
     </section>
 
-    <section class="mapa">    
+    <section id="mapa" class="mapa">    
         <div id="map" class ="map"></div>    
     </section>
 
-    
+    <footer>
+        <div class="conteiner-informacoes">
+            <div class="logo">
+                <img src="/images/logo mm nova 2024-1.png" alt="">
+                <p> Onde Cada Pão é Feito com Carinho e Tradição <br>Transformando Momentos em Sabores Inesquecíveis!</p>
+            </div>
+            <div class="localizacao">
+                <h1>Localização</h1>
+                <p>Rua Cesario Lange 735 - Messejana</p>
+                <p>Fortaleza-ce</p>
+            </div>
+            <div class="redes-sociais">
+                <h1>Redes sociais</h1>
+                <p><img src="images/instagram.png" alt=""> Panificadora MM</p>
+                <p><img src="images/facebook.png" alt=""> Panificadora MM</p>
+                <p><img src="images/whatsapp.png" alt=""> +55 (85) 98607-4142</p>
+                <p><img src="images/telefone.png" alt=""> 3276-2231</p>
+            </div>
+            <div class="horarios">
+                <h1>Horários</h1>
+                <p>Segunda a Domingo</p>
+                <p class="hr">05:20 21:00</p>
+                <p>Feriados</p>
+                <p class="hr">05:20 21:00</p>
+                <p>01 de janeiro</p>
+                <p class="hr">Fechado</p>
+            </div>
+        </div>
+        
+        <hr/>
+
+        <div class="copyright">
+            <p>Copyright © 2024 Panificadora MM</p>
+        </div>
+    </footer>
 </body>
 </html>

@@ -8,3 +8,4 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 var marker = L.marker([-3.828435899211545, -38.48992633231076]).addTo(map);
+marker.bindPopup("<b>Panificadora mm</b>").openPopup();

@@ -16,6 +16,7 @@
     bottom: 0;
     left: 0;
     margin: 20px;
+    z-index: 10;
 }
 
 header{
@@ -80,7 +81,7 @@ header .container-bemvindo{
 }
 .container-bemvindo .bemvindo .tit{
     font-weight: 200;
-    font-size: 40px;
+    font-size: 60px;
 }
 .container-bemvindo .bemvindo p{
     margin: 0px 10px 0px;
@@ -109,4 +110,63 @@ header .container-bemvindo{
 #map {
     height: 80%;
     width: 80%; 
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px 0px;
+    background-color: rgb(104, 76, 42);
+    color: white;
+}
+footer .conteiner-informacoes{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px 30px;
+}
+footer .conteiner-informacoes h1{
+    font-weight: 200;
+    padding: 0px 0px 20px;
+}
+
+footer .conteiner-informacoes .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .conteiner-informacoes .logo img{
+    width: 130px;
+    margin: 0px 0px 20px;
+}
+footer .conteiner-informacoes .logo p{
+    font-size: 15px;
+}
+footer .conteiner-informacoes .localizacao{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .conteiner-informacoes .redes-sociais img{
+    width: 30px;
+    padding: 0px 0px 10px;
+    margin-right: 8px;
+}
+footer .conteiner-informacoes .redes-sociais p{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+footer .copyright{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+footer .copyright p{
+    font-size: 12px;
+}
+
+footer .hr{
+    font-weight: 100;
 }
