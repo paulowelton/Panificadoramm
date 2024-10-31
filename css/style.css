@@ -92,23 +92,35 @@ header .container-bemvindo{
 
 
 .titulo{
-    margin: 100px 0px 100px;
+    padding: 100px 0px 0px;
     font-size: 45px;
+    font-weight: 200;
+    color: rgb(175, 131, 78);
 }
+
 .produtos{
-    background-color: white;
+    background-color: rgb(250, 247, 247);
     text-align: center;
+}
+.produtos #conteiner-produtos{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .mapa{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    background-color: rgb(250, 247, 247);
+    flex-direction: column;
 }
 #map {
-    height: 80%;
+    height: 60%;
     width: 80%; 
 }
 
@@ -169,4 +181,36 @@ footer .copyright p{
 
 footer .hr{
     font-weight: 100;
+}
+
+
+.service{
+    border-radius: 15px;
+    width: 26%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(175, 131, 78);
+    cursor: pointer;
+    background-color: white;
+    margin: 100px 0px 0px;
+}
+.service img{
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 70%;
+    margin: 0px 0px 15px;
+}
+.service h1{
+    font-weight: 400;
+}
+.service .titulo-descricao{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 10px 10px;
+}
+.service p{
+    font-size: 13px;
 }
