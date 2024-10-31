@@ -26,6 +26,10 @@
     footer p{
         font-size: 13px;
     }
+
+    .service{
+        width: 45%;
+    }
 }
 
 @media screen and (max-width: 1148px){
@@ -56,6 +60,27 @@
         display: block;
         color: white;
         font-size: 28px;
+    }
+
+    .produtos #conteiner-produtos{
+        padding: 0px 0px 100px;
+    }
+    .service{
+        width: 45%;
+        height: auto;
+    }
+    .service img{
+        height: 200px;
+    }
+    .service .titulo-descricao{
+        justify-content: center;
+        height: auto;
+    }
+    .service h1{
+        font-size: 20px;
+    }
+    .service p{
+        display: none;
     }
 
     .mapa{
