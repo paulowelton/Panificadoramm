@@ -41,7 +41,13 @@
     }
 }
 
-@media screen  and (max-width: 700px){
+@media screen and (max-width: 1148px){
+    .sobre-nos .descricao p{
+        font-size: 11px;
+    }
+}
+
+@media screen  and (max-width: 735px){
     
     header nav .logo{
         width: 70px;
@@ -83,6 +89,21 @@
         display: none;
     }
 
+    .sobre-nos{
+        height: 40vh;
+        margin: 0px 0px 100px;
+    }
+    .sobre-nos .descricao{
+        width: 60%;
+        padding: 5px;
+    }
+    .sobre-nos .descricao h1{
+        font-size: 15px;
+    }
+    .sobre-nos .descricao p{
+        font-size: 9px;
+    }
+
     .mapa{
         display: none;
     }
@@ -99,5 +120,11 @@
     }
     footer p{
         font-size: 13px;
+    }
+}
+
+@media screen  and (max-width: 375px){
+    .sobre-nos{
+        height: 55vh;
     }
 }
