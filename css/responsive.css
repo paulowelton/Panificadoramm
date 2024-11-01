@@ -123,8 +123,11 @@
     }
 }
 
-@media screen  and (max-width: 375px){
+@media screen  and (max-width: 300px){
     .sobre-nos{
         height: 55vh;
+    }
+    .sobre-nos .descricao button{
+        width: 53%;
     }
 }
