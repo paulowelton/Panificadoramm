@@ -1,6 +1,12 @@
+
+
 @media screen  and (max-width: 1470px){
     header nav{
         width: 90%;
+    }
+
+    .sobre-nos .descricao{
+        width: 50%;
     }
 }
 
@@ -30,6 +36,13 @@
     .service{
         width: 45%;
     }
+
+    .sobre-nos .descricao{
+        width: 50%;
+    }
+    .sobre-nos .descricao p{
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 1148px){
@@ -39,12 +52,7 @@
     footer p{
         font-size: 13px;
     }
-}
-
-@media screen and (max-width: 1148px){
-    .sobre-nos .descricao p{
-        font-size: 11px;
-    }
+    
 }
 
 @media screen  and (max-width: 735px){
@@ -72,11 +80,14 @@
         padding: 0px 0px 100px;
     }
     .service{
-        width: 45%;
+        width: 100%;
         height: auto;
+        margin: 50px 0px 0px;
+        border-radius: 0px;
     }
     .service img{
         height: 200px;
+        border-radius: 0px;
     }
     .service .titulo-descricao{
         justify-content: center;
@@ -85,24 +96,8 @@
     .service h1{
         font-size: 20px;
     }
-    .service p{
-        display: none;
-    }
+    
 
-    .sobre-nos{
-        height: 40vh;
-        margin: 0px 0px 100px;
-    }
-    .sobre-nos .descricao{
-        width: 50%;
-        padding: 5px;
-    }
-    .sobre-nos .descricao h1{
-        font-size: 15px;
-    }
-    .sobre-nos .descricao p{
-        font-size: 9px;
-    }
 
     .mapa{
         display: none;
@@ -121,13 +116,22 @@
     footer p{
         font-size: 13px;
     }
+
+    .sobre-nos .descricao h1{
+        font-size: 20px;
+    }
+    .sobre-nos .descricao p{
+        font-size: 10px;
+    }
+    .sobre-nos .descricao{
+        width: 100%;
+    }
+
 }
 
-@media screen  and (max-width: 300px){
-    .sobre-nos{
-        height: 55vh;
-    }
-    .sobre-nos .descricao button{
-        width: 53%;
+@media screen  and (max-width: 600px){
+    .sobre-nos .descricao{
+        width: 100%;
+        border: 1px solid black;
     }
 }

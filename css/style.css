@@ -147,11 +147,14 @@ body{
 
 .sobre-nos{
     width: 100%;
-    height: 60vh;
+    height: 65vh;
     margin: 100px 0px 0px;
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-image: url('../images/background-pao.png');
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
 }
 .sobre-nos .descricao{
     width: 30%;
@@ -162,32 +165,29 @@ body{
     justify-content: space-between;
 }
 .sobre-nos .descricao h1{
-    font-weight: 400;
-    color: rgb(175, 131, 78);
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
 }
 .sobre-nos .descricao button{
-    width: 35%;
-    height: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 50%;
+    height: 40px;
     cursor: pointer;
     background-color: rgb(175, 131, 78);
     color: white;
     transition: 0.5s;
+    font-size: 14px;
+    font-weight: 500;
 }
 .sobre-nos .descricao button:hover{
     background-color: rgb(134, 101, 61);
 }
 .sobre-nos .descricao p{
-    color: rgb(175, 131, 78);
-    font-size: 14px;
-}
-
-.sobre-nos .loja{
-    width: 40%;
-    height: 100%;
-}
-.sobre-nos .loja img{
-    width: 100%;
-    height: 100%;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
 }
 
 .mapa{
