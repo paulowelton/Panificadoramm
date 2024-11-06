@@ -8,6 +8,10 @@
     .sobre-nos .descricao{
         width: 50%;
     }
+
+    .sobre-nos{
+        height: 70vh;
+    }
 }
 
 @media screen and (max-width: 970px){
@@ -132,6 +136,5 @@
 @media screen  and (max-width: 600px){
     .sobre-nos .descricao{
         width: 100%;
-        border: 1px solid black;
     }
 }
