@@ -7,6 +7,69 @@
     scroll-behavior: smooth;
 }
 
+.menu{
+    width: 70%;
+    height: 100vh;
+    background-color: rgb(143, 105, 59);
+    position: fixed;
+    z-index: 30;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    display: none;
+}
+.menu .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 0px;
+}
+.menu .header img{
+    width: 70px;
+}
+.menu .header .sair-menu{
+    width: 35px;
+}
+.menu .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu .main p{
+    font-size: 18px;
+    font-weight: 200;
+    padding: 33px 0px 33px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 33px 0px 33px;
+}
+.menu .footer button{
+    border-radius: 10px;
+    cursor: pointer;
+    width: 65%;
+    height: 40px;
+    border: 2px solid white;
+    background-color: rgb(143, 105, 59);
+    color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    font-weight: 300;
+    font-size: 15px;
+}
+.menu .footer button:hover{
+    background-color: white;
+    color: black;
+}
+
 .whatsapp,.icon-whatsapp{
     border-radius: 50%;
     width: 60px;
@@ -16,7 +79,7 @@
     bottom: 0;
     left: 0;
     margin: 20px;
-    z-index: 10;
+    z-index: 20;
 }
 
 header{
@@ -39,6 +102,7 @@ header nav{
 header nav .logo{
     width: 100px;
     height: 100px;
+    z-index: 10;
 }
 header nav ul{
     display: flex;
@@ -114,6 +178,7 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 .service{
     border-radius: 15px;
     width: 26%;
@@ -148,7 +213,7 @@ body{
 .sobre-nos{
     width: 100%;
     height: 65vh;
-    margin: 100px 0px 0px;
+    margin: 0px 0px 0px;
     display: flex;
     justify-content: center;
     background-image: url('../images/background-pao.png');
@@ -200,8 +265,9 @@ body{
     flex-direction: column;
 }
 #map {
-    height: 60%;
-    width: 80%; 
+    height: 70%;
+    width: 90%;
+    z-index: 10;
 }
 
 footer{

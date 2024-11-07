@@ -13,6 +13,22 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 <body>
+    <div class="menu">
+        <div class="header">
+            <img src="/images/logo mm nova 2024-1.png" alt="">
+            <img src="/images/icons8-excluir-48.png" alt="" class="sair-menu">
+        </div>
+        <div class="main">
+            <p>Inicio</p>
+            <p>Produtos</p>
+            <p>Localização</p>
+            <p>Quem somos</p>
+            <p>Contato</p>
+        </div>
+        <div class="footer">
+            <button>Encomendar</button>
+        </div>
+    </div>
     <div class="whatsapp"><img onclick="redirect('')" class="icon-whatsapp" src="images/icon-whatsapp.png" alt=""></div>
     <header>
         <nav>
@@ -46,16 +62,16 @@
         </div>
     </section>
     
+    <section id="mapa" class="mapa">    
+        <div id="map" class ="map"></div>    
+    </section>
+
     <section class="sobre-nos">
         <div class="descricao">
             <h1>Sobre á <br> Panificadora M & M</h1>
             <p>Fundada em 1974 pelos irmãos Emanuel e Melquiades Timbó, a Padaria Timbó se consolidou no bairro Messejana, em Fortaleza, oferecendo uma variedade de pães, bolos, tortas e salgados. Com um atendimento acolhedor e receitas caseiras, a padaria conquistou a confiança da comunidade e se tornou um ponto de encontro local. Além de utilizar ingredientes frescos, a Timbó promove eventos e parcerias, sempre inovando enquanto preserva suas raízes, tornando-se um símbolo da gastronomia de Messejana.</p>
             <button class="saiba mais">Saiba mais</button>
         </div>
-    </section>
-
-    <section id="mapa" class="mapa">    
-        <div id="map" class ="map"></div>    
     </section>
 
 

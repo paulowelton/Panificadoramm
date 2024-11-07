@@ -44,7 +44,7 @@ const servicos = [
     {
         nome: "Sopas",
         descricao: "Sopas e caldos quentinhos, reconfortantes e feitos com ingredientes frescos. O aconchego em cada colherada",
-        imagem: "../images/servicos/sopa.jpg",
+        imagem: "../images/servicos/sopas.png",
         page: "../pages/sopas.html"
     },
     {
